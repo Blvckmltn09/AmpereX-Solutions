@@ -44,7 +44,7 @@ body{
 
 .header .logo img {
   
-    height: 70px;
+    height: 90px;
     width: auto;
     transition: all 0.3s;
 }
@@ -456,7 +456,7 @@ hr{
 
 .card .front{
     transform: perspective(600px) rotateY('180deg');
-    box-shadow: 0 5px 10px #000;
+    box-shadow: 0 5px 20px #000;
 }
 
 .card .front img{
@@ -487,7 +487,8 @@ hr{
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    box-shadow: 0 5px 10px #000 ;
+    box-shadow: 0 5px 15px #000 ;
+    height: 400px;
 }
 
 .card .back .link{
@@ -495,7 +496,15 @@ hr{
     height: 50px;
     line-height: 50px;
 }
-
+.link button {
+    color: #FFA500;
+    background-color: transparent;
+    justify-content: space-between;
+    font-family: "Bebas Neue", cursuve;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
 .card .back .link a{
     color:#FFA500
 
